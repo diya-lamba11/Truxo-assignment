@@ -15,36 +15,6 @@ A single-page application (SPA) with a search bar that implements search and laz
 - **Backend:** Node.js with Express
 - **Data Source:** Local JSON file (`student_data.json`)
 
----
-
-## 📁 Project Structure
-
-```
-
-assignment/
-├── client/                        # React frontend (Vite)
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── SearchBar.jsx      # Search input with autocomplete dropdown
-│   │   │   └── StudentCard.jsx    # Displays selected student details
-│   │   ├── hooks/
-│   │   │   ├── useDebounce.js     # Delays value updates until user stops typing
-│   │   │   ├── useClickOutside.js # Detects clicks outside a DOM element
-│   │   │   └── useStudentSearch.js# Fetches search results from the API
-│   │   ├── App.jsx                # Root component
-│   │   ├── App.css               # Global styles (responsive)
-│   │   └── main.jsx              # Entry point
-│   ├── index.html
-│   ├── vite.config.js            # Proxy setup
-│   └── package.json
-├── server/                       # Express backend
-│   ├── index.js
-│   └── package.json
-├── student_data.json
-├── package.json                  # Root scripts
-└── README.md
-
-````
 
 ---
 
