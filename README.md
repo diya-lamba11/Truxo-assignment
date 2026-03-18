@@ -1,5 +1,3 @@
-Here’s your **clean, properly formatted README.md** (ready to copy-paste):
-
 ---
 
 ```md
