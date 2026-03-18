@@ -1,5 +1,3 @@
----
-
 ```md
 # Student Search Application
 
